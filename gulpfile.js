@@ -11,8 +11,6 @@ const uglify = require('gulp-uglify');
 const path = {
 	build: {
 		main: './build',
-		font: `./build/font`,
-		image: `./build/images`
 	},
 	src: {
 		css: './src/scss/main.scss',
@@ -21,6 +19,7 @@ const path = {
 	watch: {
 		css: './src/scss/**/*.scss',
 		js: './src/js/**/*.js',
+		html: './src/html/**/*.html'
 	}
 };
 
